@@ -1,0 +1,16 @@
+{
+  "ConnectionStrings": {
+    "User": "data source=localhost\\SQLEXPRESS;initial catalog=User;Integrated Security=true;"
+  },
+
+  "BusinessErrors": {
+    "UserAlreadyExists": {
+      "Message": "User already exists",
+      "Code": 100
+    },
+    "GroupNotFound": {
+      "Message": "User not found",
+      "Code": 101
+    }
+  }
+}
